@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings_menu_title">
+
+        <ListPreference
+            android:key="start_type_list_key"
+            android:title="@string/settings_menu_start_type_list_title"
+            android:summary="@string/settings_menu_start_type_list_summary"
+            android:dialogTitle="@string/settings_menu_start_type_list_dialogtitle"
+            android:entries="@array/start_type_list_entries"
+            android:entryValues="@array/start_type_list_entryvalues" />
+
+        <CheckBoxPreference
+            android:key="rokuyou_key"
+            android:title="@string/settings_menu_rokuyou_title"
+            android:summary="@string/settings_menu_rokuyou_summary" />
+
+        <CheckBoxPreference
+            android:key="holiday_key"
+            android:title="@string/settings_menu_holiday_title"
+            android:summary="@string/settings_menu_holiday_summary" />
+
+        <CheckBoxPreference
+            android:key="google_event_key"
+            android:title="@string/settings_menu_google_event_title"
+            android:summary="@string/settings_menu_google_event_summary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

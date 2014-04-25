@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">シンプルカレンダー</string>
+    <string name="get_auth_info_menu">認証情報取得</string>
+    <string name="clear_auth_info_menu">認証情報クリア</string>
+    <string name="settings_menu">設定</string>
+    <string name="version_menu">バージョン情報</string>
+
+    <string name="settings_menu_title">設定</string>
+    <string name="settings_menu_start_type_mon">月曜日始まり</string>
+    <string name="settings_menu_start_type_sun">日曜日始まり</string>
+    <string name="settings_menu_start_type_list_title">曜日始まり</string>
+    <string name="settings_menu_start_type_list_summary">曜日始まりを選択して下さい</string>
+    <string name="settings_menu_start_type_list_dialogtitle">曜日始まり選択</string>
+    <string name="settings_menu_rokuyou_title">六曜</string>
+    <string name="settings_menu_rokuyou_summary">六曜を表示します</string>
+    <string name="settings_menu_holiday_title">祝日</string>
+    <string name="settings_menu_holiday_summary">祝日を表示します</string>
+    <string name="settings_menu_google_event_title">Goolgeイベント</string>
+    <string name="settings_menu_google_event_summary">Googleのイベントを表示します</string>
+    
+    <string name="sunday">日</string>
+    <string name="monday">月</string>
+    <string name="tuesday">火</string>
+    <string name="wednesday">水</string>
+    <string name="thursday">木</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="date">日</string>
+    <string name="hour">時</string>
+    <string name="minute">分</string>
+
+    <string name="info_dialog_title">情報</string>
+    <string name="info_dialog_positive_button">OK</string>
+    <string name="seireki_prefix">西　　暦\t：</string>
+    <string name="wareki_prefix">和　　暦\t：</string>
+    <string name="kyureki_prefix">旧　　暦\t：</string>
+    <string name="nissu_prefix"> 経過日数\t：</string>
+    <string name="sekki_prefix">二十四節気\t：</string>
+    <string name="seireki_format">yyyy年MM月dd日</string>
+
+    <string name="yearmonth_dialog_title">年月選択</string>
+    <string name="date_dialog_title">年月日選択</string>
+    <string name="time_dialog_title">時分選択</string>
+
+    <string name="version_dialog_title">バージョン情報</string>
+    <string name="version_pre_message">カレンダー\nVer.</string>
+    <string name="version_post_message">\nCopyright(C) paveway.info. All rights reserved.</string>
+
+    <string name="dialog_positive_button">OK</string>
+
+    <string name="back_button">戻る</string>
+    <string name="info_button">情報</string>
+    <string name="prev_date_button">前日</string>
+    <string name="new_schedule_button">新規</string>
+    <string name="next_date_button">翌日</string>
+    <string name="edit_button">編集</string>
+    <string name="delete_button">削除</string>
+
+    <string name="title_label">件名</string>
+    <string name="gd_start_time_label">開始日時</string>
+    <string name="gd_end_time_label">終了日時</string>
+    <string name="gd_where_label">場所</string>
+    <string name="content_label">内容</string>
+    <string name="regist_button">登録</string>
+
+    <string name="error_failed">エラーが発生しました。</string>
+    <string name="error_insert">予定を登録できませんでした。</string>
+    <string name="error_update">予定を更新できませんでした。</string>
+    <string name="error_delete">予定を削除できませんでした。</string>
+    <string name="error_start_time">開始日時が終了日時より過去日付です。</string>
+    <string name="error_get_auth_info">認証情報の取得に失敗しました。</string>
+
+</resources>
