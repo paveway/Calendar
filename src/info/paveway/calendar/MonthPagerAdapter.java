@@ -167,7 +167,7 @@ public class MonthPagerAdapter extends PagerAdapter {
         START_SUN_TEXT_COLOR_IDS.put(6,  R.color.blue);
     }
 
-    /** 日付セル行ID配列 */
+	/** 日付セル行ID配列 */
     public static SparseIntArray DATE_CELL_ROW_IDS;
     static {
         DATE_CELL_ROW_IDS = new SparseIntArray();
@@ -222,6 +222,10 @@ public class MonthPagerAdapter extends PagerAdapter {
     /** 曜日開始タイプ */
     private int mStartType;
 
+    private boolean mRokuyouFlg;
+    
+    private boolean mHolidayFlg;
+    
     /**
      * コンストラクタ
      *

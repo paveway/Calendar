@@ -50,7 +50,7 @@ public class SetEventsThread extends Thread {
     private final int mStartType;
 
     /**
-     * コンテキスト
+     * コンストラクタ
      *
      * @param context コンテキスト
      *
