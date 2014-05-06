@@ -1158,8 +1158,8 @@ public class MonthPagerAdapter extends PagerAdapter {
                     new SimpleDateFormat(getResourceString(R.string.seireki_format)).format(cal.getTime());
             String wareki   = getResourceString(R.string.wareki_prefix)  + DateUtil.getWareki(cal);
             String kyureki  = getResourceString(R.string.kyureki_prefix) + QReki.getKyureki(cal);
-            String nissu    = getResourceString(R.string.nissu_prefix)   + mCalendar.get(Calendar.DAY_OF_YEAR);
-            String sekki    = Sekki.getSekki(mCalendar);
+            String nissu    = getResourceString(R.string.nissu_prefix)   + cal.get(Calendar.DAY_OF_YEAR);
+            String sekki    = Sekki.getSekki(cal);
             sekki = (!"".equals(sekki) ? (getResourceString(R.string.sekki_prefix) + sekki) : "");
 
             return  seireki + "\n" + wareki + "\n" + kyureki + "\n" + nissu + "\n" + sekki;
